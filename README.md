@@ -26,6 +26,6 @@ Once these items are installed/configured, I am able to initiate an SSH tunnel t
 - Using ls with appropriate flags
 - Reading file contents
 
-**Solution:**
-After navigating to the correct directory, use `ls -a` command to list all files, *including hidden files*.
+**Solution:** <br />
+After navigating to the correct directory, use `ls -a` command to list all files, *including hidden files*. <br />
 To read the file, use `cat FILENAME`.
