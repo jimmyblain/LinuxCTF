@@ -12,5 +12,5 @@ Requirements to complete this step:
     + Rather than build all the necessary resources (VM, disk, network, ip, etc.) via portal, we achieve consistency and automation via **Infrastructure as Code**.
 3. Install [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
-Once these items are installed/configured, I am able to initiate an SSH tunnel to the Linux VM:
+Once these items are installed/configured, I am able to initiate an SSH tunnel to the Linux VM: 
 `ssh ctf_users@VM_PUBLIC_IP_ADDRESS`
