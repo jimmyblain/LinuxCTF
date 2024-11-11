@@ -1,6 +1,7 @@
-# Learn to Cloud 
+# Learn to Cloud - Linux Challenge
 
 This is a public repo to record my progress through my cloud learnings.
+
 
 ## Step 0 - Configuration of Cloud Environment.
 
@@ -14,3 +15,17 @@ Requirements to complete this step:
 
 Once these items are installed/configured, I am able to initiate an SSH tunnel to the Linux VM: <br />
 `ssh ctf_users@VM_PUBLIC_IP_ADDRESS`
+
+
+## Step 1 - Finding the Hidden File
+
+**Objective:** Find a hidden file in the ctf_challenges directory and read its contents.
+
+**Skills tested:**
+- Understanding of hidden files in Linux
+- Using ls with appropriate flags
+- Reading file contents
+
+**Solution:**
+After navigating to the correct directory, use `ls -a` command to list all files, *including hidden files*.
+To read the file, use `cat FILENAME`.
